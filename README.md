@@ -64,9 +64,14 @@ $ pwd
 
 
 首先回到git库文件夹下面执行
-git remote add origin https://github.com/cww0128/url.git
 
-git push -u origin master
+<pre><code>git remote add origin https://github.com/cww0128/url.git          
+   
+git push -u origin master   
+</code></pre>
+
+
+
 
 
 
@@ -89,20 +94,27 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 第二节
 
 远程仓库直接拿下来
+<pre><code>Git-bush   新建一个文件夹
 
-   Git-bush   新建一个文件夹
+$ git init    把当前目录编程git可以管理的仓库
 
-   $ git init    把当前目录编程git可以管理的仓库
+git clone https://github.com/cww0128/url.git 即可
+</code></pre>
 
-   git clone https://github.com/cww0128/url.git 即可
+   
 
-   然后更新到远程目录的操作跟上面雷同：
+   
 
-git add .          
+   
+
+然后更新到远程目录的操作跟上面雷同：
+<pre><code>git add .          
    
 git commit -m "提交信息"   
   
 git push origin master
+</code></pre>
+
 
 这里提交后会提示用户名密码的输入，只需要输入github的用户名及密码就可以了。
 
