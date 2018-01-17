@@ -1,6 +1,6 @@
 # Github搭建事宜
 
-
+## 第一节
 一、下载git软件（官网地址：[https://git-scm.com/](https://git-scm.com/ "https://git-scm.com/")）也可以找国内镜像下载，文件不大无关紧要。
 
 二、不停的下一步下一步同意同意，安装完成git。
@@ -86,7 +86,7 @@ Git库基本操作
 
 
 
-# 第二节
+## 第二节
 
 远程仓库直接拿下来
 <pre><code>Git-bush   新建一个文件夹
