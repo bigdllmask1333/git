@@ -73,25 +73,32 @@ git push -u origin master
 
 
 
+<pre><code>git add . 
+git commit -m "提交信息" 
+git push origin master
 
-
-
-git add .             git commit -m "提交信息"     git push origin master
-
+当遇到下面的提示时：
 fatal: 'origin' does not appear to be a git repository
 fatal: Could not read from remote repository.
 
-则需要重新输入$ git remote add origin https://github.com/cww0128/url.git
+则需要重新输入
+$ git remote add origin https://github.com/cww0128/url.git
+</code></pre>
+
+
+                
+
 
 基本上到这里已经可以上传更新文件了
 
+
 Git库基本操作
 廖雪峰的博客git相关
-https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000
+[https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000 "廖雪峰博客")
 
 
 
-第二节
+# 第二节
 
 远程仓库直接拿下来
 <pre><code>Git-bush   新建一个文件夹
