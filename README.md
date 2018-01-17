@@ -1,13 +1,13 @@
 # Github搭建事宜
 
 ## 第一节
-###一、下载git软件
+### 一、下载git软件
 （官网地址：[https://git-scm.com/](https://git-scm.com/ "https://git-scm.com/")）也可以找国内镜像下载，文件不大无关紧要。
 
-###二、不停的下一步下一步同意同意，安装完成git。
+### 二、不停的下一步下一步同意同意，安装完成git。
 
  
-###三、远程仓库的搭建
+### 三、远程仓库的搭建
 
 <blockquote>
 <p>现在的情景是，你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举多得。</p>
@@ -24,7 +24,7 @@
 
 
     
-###四、创建一个本地版本库
+### 四、创建一个本地版本库
 
 创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：
 <pre><code>$ mkdir learngit
@@ -43,7 +43,7 @@ $ git init
 
 如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用<code>ls -ah</code>命令就可以看见。
 
-###五、创建密钥
+### 五、创建密钥
 <pre><code>$ git config --global user.name "xxx"
 $ git config --global user.email "xxx@xxx.com"
 $ ssh-keygen -t rsa -C  "xxx@xxx.com"
@@ -58,7 +58,7 @@ $ pwd
 是“id_rsa.pub”里面的公钥。
 
 
-###六、接下来提交文件
+### 六、接下来提交文件
 
 
 首先回到git库文件夹下面执行
@@ -90,7 +90,7 @@ $ git remote add origin https://github.com/cww0128/url.git
 基本上到这里已经可以上传更新文件了
 
 
-####Git库基本操作
+#### Git库基本操作
 >廖雪峰的博客git相关
 ***
 [https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000 "廖雪峰博客")
@@ -99,7 +99,7 @@ $ git remote add origin https://github.com/cww0128/url.git
 
 ## 第二节
 
-#####远程仓库直接拿下来
+##### 远程仓库直接拿下来
 <pre><code>Git-bush   新建一个文件夹
 
 $ git init    把当前目录编程git可以管理的仓库
@@ -113,7 +113,7 @@ git clone https://github.com/cww0128/url.git 即可
 
    
 
-#####然后更新到远程目录的操作跟上面雷同：
+##### 然后更新到远程目录的操作跟上面雷同：
 <pre><code>git add .          
    
 git commit -m "提交信息"   
@@ -126,7 +126,7 @@ git push origin master
 
 
 
-######其余的操作基本如下：
+###### 其余的操作基本如下：
 
 版本控制
 
