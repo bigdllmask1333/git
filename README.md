@@ -24,7 +24,7 @@ $ pwd
 pwd命令用于显示当前目录。
 $ git init 
 通过git init命令把这个目录变成Git可以管理的仓库
-
+</code></pre>
 
 <pre><code>Initialized empty Git repository in /Users/michael/learngit/.git/</code></pre>
 
