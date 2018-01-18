@@ -132,7 +132,7 @@ git push origin master
 
 删除等，可以在上面提到的廖雪峰博客链接里面找到！这是关于github的操作，码云也是一样的操作思路。
 
-- 在操作码云的时候遇到版本不同步的问题，需要先git pull  同步下载，不然就一直报错如下：
+#  在操作码云的时候遇到版本不同步的问题，需要先git pull  同步下载，不然就一直报错如下：
 
 
 <pre><code>$ git push -u origin master
