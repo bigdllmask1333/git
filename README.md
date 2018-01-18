@@ -131,3 +131,21 @@ git push origin master
 版本控制
 
 删除等，可以在上面提到的廖雪峰博客链接里面找到！这是关于github的操作，码云也是一样的操作思路。
+
+- 在操作码云的时候遇到版本不同步的问题，需要先git pull  同步下载，不然就一直报错如下：
+
+
+<pre><code>$ git push -u origin master
+To git@github.com:******/Demo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:******/Demo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.</code></pre>
+
+### 解决办法：
+<pre><code>$ git push -u origin master -f </code></pre>
+
+### 解决思路地址
+[http://blog.csdn.net/commshare/article/details/31771203](http://blog.csdn.net/commshare/article/details/31771203 "http://blog.csdn.net/commshare/article/details/31771203")
