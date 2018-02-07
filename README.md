@@ -149,3 +149,21 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.</code
 
 ### 解决思路地址
 [http://blog.csdn.net/commshare/article/details/31771203](http://blog.csdn.net/commshare/article/details/31771203 "http://blog.csdn.net/commshare/article/details/31771203")
+
+
+### 从线上下载代码到本地
+第一次是克隆
+
+
+- $ git init
+
+
+- $ git clone git://github.com/schacon/grit.git
+
+后面就是抓取
+
+
+- git fetch origin master
+
+
+- git merge origin/master 
